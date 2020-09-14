@@ -27,11 +27,11 @@ function processFirstItem(stringList, callback) {
  * Study the code for counter1 and counter2. Answer the questions below.
  * 
  * 1. What is the difference between counter1 and counter2?
- * 
+ * The variable is nested in the function counterMaker affecting the scope of it
  * 2. Which of the two uses a closure? How can you tell?
- * 
+ * counter1 uses a closure, I know this because there is a function nested within counterMaker
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
- *
+ * counter1 would be preferable when trying one wants to use the variable count within the function counterMaker, counter2 would be preferable when wanting to make the variable count globally scoped
 */
 
 // counter1 code
@@ -109,5 +109,5 @@ function scoreboard(/* CODE HERE */) {
 }
 
 
-//test
-//test
+
+
